@@ -1,0 +1,49 @@
+.splash {
+    background-color: #946fb0;
+    box-shadow: 0px 5px 5px #525151;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.splash p {
+    margin-left: 20px;
+}
+
+.splash img {
+    border-radius: 10%;
+    border: 5px solid #f0bc38;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: max-content auto;
+    align-items: center;
+    margin-left: 140px;
+    margin-right: 10px;
+}
+
+#info {
+    font-family: "Playwrite TZ", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    grid-column-start: 2;
+    color: #f0bc38;
+    text-align: center;
+}
+
+#headshot {
+    grid-column-start: 1;
+}
+
+#statement {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 100px;
+}

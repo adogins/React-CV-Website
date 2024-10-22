@@ -1,0 +1,28 @@
+.experience {
+    font-size: 20px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #ede1f7;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: max-content auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+dt {
+    grid-column-start: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+dd {
+    grid-column-end: 8;
+    margin-left: 10px;
+    margin-right: 10px;
+}

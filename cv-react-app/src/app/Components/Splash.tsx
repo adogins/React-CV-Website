@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+import profilePic from "public/images/Headshot.jpg";
 
 const Splash = () => {
   return (
@@ -7,7 +9,7 @@ const Splash = () => {
       <div className="intro">
         <img
           id="headshot"
-          src="./images/Headshot.jpg"
+          src={profilePic}
           alt="headshot photo"
           width="200px"
         ></img>

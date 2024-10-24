@@ -1,8 +1,21 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Nav from "./Components/Nav";
+import Splash from "./Components/Splash";
+import Education from "./Components/Education";
 
 export default function Home() {
   return (
+    <div>
+      <Nav />
+      <Splash />
+      <Education />
+    </div>
+  );
+}
+
+/*
+return (
     <div className={styles.page}>
       <main className={styles.main}>
         <Image
@@ -92,4 +105,5 @@ export default function Home() {
       </footer>
     </div>
   );
-}
+
+*/

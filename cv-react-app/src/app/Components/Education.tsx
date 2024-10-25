@@ -1,8 +1,9 @@
 import React from "react";
+import style from "./Education.module.css";
 
 const Education = () => {
   return (
-    <section className="education">
+    <section className={style.education}>
       <h2>Education</h2>
       <dl>
         <dt>

@@ -22,7 +22,7 @@
     padding: 2px 16px;
 }
 
-.three-col {
+.threeCol {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-left: 2%;

@@ -8,20 +8,20 @@
     background-color: #ede1f7;
 }
 
-dl {
+.detail {
     display: grid;
     grid-template-columns: max-content auto;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-dt {
+.detail2 {
     grid-column-start: 1;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-dd {
+.dates {
     grid-column-end: 8;
     margin-left: 10px;
     margin-right: 10px;

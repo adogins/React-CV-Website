@@ -1,15 +1,17 @@
 import React from "react";
+import style from "./Projects.module.css";
+import { StyleRegistry } from "styled-jsx";
 
 const Projects = () => {
   return (
     <section className="projects">
       <h2>Projects</h2>
-      <div className="three-col">
-        <div className="card">
-          <img src="public/images/DevDogs.png" alt="DevDogs website"></img>
+      <div className={style.threeCol}>
+        <div className={style.card}>
+          <img src="images/DevDogs.png" alt="DevDogs website"></img>
           <hr></hr>
           <h3>DevDogs Website</h3>
-          <div className="container">
+          <div className={style.container}>
             <ul>
               <li>
                 Contribute to the website using HTML, CSS, JavaScript, React,
@@ -30,14 +32,11 @@ const Projects = () => {
             </ul>
           </div>
         </div>
-        <div className="card">
-          <img
-            src="public/images/SaveOurWorld.png"
-            alt="Save Our World logo"
-          ></img>
+        <div className={style.card}>
+          <img src="images/SaveOurWorld.png" alt="Save Our World logo"></img>
           <hr></hr>
           <h3>Save Our World</h3>
-          <div className="container">
+          <div className={style.container}>
             <ul>
               <li>Utilized Unity to build a VR game environment.</li>
               <li>
@@ -55,11 +54,11 @@ const Projects = () => {
             </ul>
           </div>
         </div>
-        <div className="card">
-          <img src="public/images/ApiApp.png" alt="Api app image"></img>
+        <div className={style.card}>
+          <img src="images/ApiApp.png" alt="Api app image"></img>
           <hr></hr>
           <h3>Airport API App</h3>
-          <div className="container">
+          <div className={style.container}>
             <ul>
               <li>Implemented the app using JavaFX as the UI.</li>
               <li>

@@ -1,8 +1,9 @@
 import React from "react";
+import style from "./Footer.module.css";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className={style.footer}>
       <p>
         &copy; &nbsp; <a href="./contact.html">Alexis Dogins</a> &nbsp; &sdot;
         &nbsp;{" "}

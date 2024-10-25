@@ -1,8 +1,9 @@
 import React from "react";
+import style from "./Honor.module.css";
 
 const Honors = () => {
   return (
-    <section className="honors">
+    <section className={style.honors}>
       <h2>Honors and Awards</h2>
       <dl>
         <dt>

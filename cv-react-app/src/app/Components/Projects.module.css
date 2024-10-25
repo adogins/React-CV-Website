@@ -6,6 +6,11 @@
     display: flexbox;
     justify-content: flex-start;
     background-color: #ede1f7;
+    color: #000000;
+}
+
+.card ul {
+    padding-left: 10px;
 }
 
 .card img {

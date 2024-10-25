@@ -6,4 +6,9 @@
     margin-left: 10px;
     margin-right: 10px;
     background-color: #ede1f7;
+    color: #000000;
+}
+
+.skills ul {
+    padding-left: 20px;
 }

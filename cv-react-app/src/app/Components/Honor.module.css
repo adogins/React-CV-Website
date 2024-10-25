@@ -6,4 +6,24 @@
     margin-left: 10px;
     margin-right: 10px;
     background-color: #ede1f7;
+    color: #000000;
+}
+
+.detail {
+    display: grid;
+    grid-template-columns: max-content auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.detail2 {
+    grid-column-start: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.detail3 {
+    grid-column-end: 8;
+    margin-left: 10px;
+    margin-right: 10px;
 }

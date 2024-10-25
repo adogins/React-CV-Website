@@ -15,6 +15,8 @@ export default function Home() {
       <Nav />
       <br></br>
       <Splash />
+      <br></br>
+      <hr></hr>
       <Education />
       <Honors />
       <Skills />

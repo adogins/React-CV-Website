@@ -1,4 +1,4 @@
-nav {
+.nav {
     background-color: #4d236e;
     color: #000000;
     display: flex;
@@ -13,7 +13,7 @@ nav {
     font-size: 20px;
 }
 
-nav a {
+.nav a {
     float: left;
     color: #ffeec4;
     text-align: center;
@@ -22,12 +22,12 @@ nav a {
     font-size: 17px;
 }
 
-nav a:hover {
+.nav a:hover {
     background-color: #946fb0;
     color: #000000;
 }
 
-nav a.active {
+.nav a.active {
     background-color: #ffeec4;
     color: #4d236e;
 }

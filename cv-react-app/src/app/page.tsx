@@ -3,13 +3,24 @@ import styles from "./page.module.css";
 import Nav from "./Components/Nav";
 import Splash from "./Components/Splash";
 import Education from "./Components/Education";
+import Honors from "./Components/Honors";
+import Skills from "./Components/Skills";
+import Experience from "./Components/Experience";
+import Projects from "./Components/Projects";
+import Footer from "./Components/Footer";
 
 export default function Home() {
   return (
     <div>
       <Nav />
+      <br></br>
       <Splash />
       <Education />
+      <Honors />
+      <Skills />
+      <Experience />
+      <Projects />
+      <Footer />
     </div>
   );
 }

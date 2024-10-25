@@ -1,8 +1,9 @@
 import React from "react";
+import style from "./Nav.module.css";
 
 const Nav = () => {
   return (
-    <nav>
+    <nav className={style.nav}>
       <p id="name">
         <a className="active" href="index.html">
           Alexis Dogins

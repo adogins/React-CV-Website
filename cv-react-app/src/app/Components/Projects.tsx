@@ -6,7 +6,7 @@ const Projects = () => {
       <h2>Projects</h2>
       <div className="three-col">
         <div className="card">
-          <img src="images/DevDogs.png" alt="DevDogs website"></img>
+          <img src="public/images/DevDogs.png" alt="DevDogs website"></img>
           <hr></hr>
           <h3>DevDogs Website</h3>
           <div className="container">
@@ -31,7 +31,10 @@ const Projects = () => {
           </div>
         </div>
         <div className="card">
-          <img src="images/SaveOurWorld.png" alt="Save Our World logo"></img>
+          <img
+            src="public/images/SaveOurWorld.png"
+            alt="Save Our World logo"
+          ></img>
           <hr></hr>
           <h3>Save Our World</h3>
           <div className="container">
@@ -53,7 +56,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="card">
-          <img src="images/ApiApp.png" alt="Api app image"></img>
+          <img src="public/images/ApiApp.png" alt="Api app image"></img>
           <hr></hr>
           <h3>Airport API App</h3>
           <div className="container">
@@ -74,3 +77,4 @@ const Projects = () => {
     </section>
   );
 };
+export default Projects;

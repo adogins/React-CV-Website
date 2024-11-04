@@ -1,13 +1,18 @@
 import React from "react";
 import style from "./Nav.module.css";
+import { Person } from "../page";
+import Link from "next/link";
+import Home from "../page";
 
-const Nav = () => {
+export default function Nav({ person }: { person: Person }) {
   return (
     <nav className={style.nav}>
       <p id="name">
-        <a className="active" href="/">
+        <Link href="/">Alexis Dogins</Link>
+        {/*<a className="active" href="/">
           Alexis Dogins
         </a>
+  */}
       </p>
       <p id="contact">
         <a className="active" href="/contact-page">
@@ -16,5 +21,4 @@ const Nav = () => {
       </p>
     </nav>
   );
-};
-export default Nav;
+}

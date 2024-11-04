@@ -9,10 +9,14 @@ import Experience from "./Components/Experience";
 import Projects from "./Components/Projects";
 import Footer from "./Components/Footer";
 
+export interface Person {
+  first: string;
+  last: string;
+}
+
 export default function Home() {
   return (
     <div>
-      <Nav />
       <br></br>
       <Splash />
       <br></br>
@@ -22,7 +26,6 @@ export default function Home() {
       <Skills />
       <Experience />
       <Projects />
-      <Footer />
     </div>
   );
 }
